@@ -8,6 +8,8 @@ set tabstop=4
 set shiftwidth=4
 set smarttab
 set expandtab
+set nowrap
+set cursorline
 
 set number
 set ruler
@@ -27,8 +29,8 @@ if has('vim_starting')
 endif 
 
 "タブ、空白、改行の可視化
-set list
-set listchars=tab:>.,trail:_,extends:>,precedes:<,nbsp:%
+"set list
+"set listchars=tab:>.,trail:_,extends:>,precedes:<,nbsp:%
 
 "全角スペースをハイライト表示
 function! ZenkakuSpace()
