@@ -10,12 +10,13 @@ set smarttab
 set expandtab
 set nowrap
 set cursorline
+set imdisable
 
 set number
 set ruler
 set clipboard+=unnamed 
 nnoremap ; :
-nnoremap <C-v> :r<space>!pbpaste
+"nnoremap <C-v> :r<space>!pbpaste
 
 "以下を追記
 set nocompatible
